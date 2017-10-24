@@ -1,0 +1,145 @@
+body {
+   
+    font-family: 'Open Sans','serif';
+}
+
+section.blog .container h1 {
+    font-size:30px;
+    font-family:'roboto','light';
+    margin-top:50px;
+    text-align: center;
+}
+
+section.blog .container h3 {
+    text-transform: uppercase;
+    color:#c8c8c8;
+    font-size:20px;
+    font-family:'roboto','light';
+    line-height: 39px;
+    text-align: center;
+}
+.container {
+    max-width: 900px;
+    width:90%;
+    margin:auto;
+}
+section.blog .wrapper {
+  
+    display: inline-block;
+    width:30%;
+margin:auto 1%;
+    position:relative;
+ vertical-align: top;
+    text-align: center;
+  
+}
+
+
+
+section.blog .inner {
+    position:relative;
+     overflow: hidden;
+    font-size:0;
+}
+
+section.blog .number {
+    position:absolute;
+    top:-25px;
+    left:-80px;
+}
+
+section.blog .wrapper h1 {
+     font-size:40px;
+    font-family:'Neoteric','regular';
+    text-align: left;
+    width:100%;
+}
+
+section.blog .wrapper p {
+     color:#959595;
+    font-size:16px;
+    font-family:'roboto','light';
+    
+}
+
+section.blog .wrapper .number {
+    font-size:200px;
+    color:#ebebeb;
+    opacity:0.6;
+}
+
+.btn {
+    background-color:black;
+    color:#fff;
+   padding:10px;
+   width:300px;
+    border:none;
+   margin-left:280px;
+    margin-top:100px;
+    font-size:20px;
+    text-transform: uppercase;
+    font-family: 'Montserrat','Regular';
+    transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+        
+}
+
+.btn:hover {
+    background-color:#BCC6CC;
+    color: #000 !important;
+	
+	text-shadow: none;
+}
+
+.btn:hover:before {
+    bottom: 0%;
+	top: auto;
+	height: 100%;
+}
+.btn:hover:before {
+    display: block;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	height: 0px;
+	width: 100%;
+	z-index: -1;
+	content: '';
+	color: #000 !important;
+	background: #F7CA18;
+	transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+}
+
+a.animated-button.thar-three {
+	color: #fff;
+	text-align: center;
+	display: block;
+	position: relative;
+	text-decoration: 
+	transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+    text-decoration: none;
+0s;
+}
+a.animated-button.thar-three:hover {
+	color: #000 !important;
+	background-color: transparent;
+	
+}
+a.animated-button.thar-three:hover:before {
+	left: 0%;
+	right: auto;
+	width: 100%;
+}
+a.animated-button.thar-three:before {
+	display: block;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	height: 100%;
+	width: 0px;
+	z-index: -1;
+	content: '';
+	color: #000 !important;
+	background: #BCC6CC;
+	transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+0s;
+}
