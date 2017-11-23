@@ -1,0 +1,103 @@
+header {
+    background: $color-white;
+  
+    .top-menu{
+        box-shadow: 0 6px 10px #999;
+        line-height: 45px;
+        @include tablet-portrait{
+            line-height: 30px;
+        }
+        .container{
+            display: flex;
+            justify-content: space-between;
+        }
+        .social{
+            margin-left:15px;
+            li{
+                display: inline-block;
+                font-size:30px;
+                @include tablet-portrait{
+                    fotn-size:18px;
+                }
+            }
+            .fa{
+                color: $color-dark-grey;
+                font-size:18px;
+                margin-right:5px;
+                @include tablet-portrait{
+                    font-size:12px;
+                }
+            }
+        }
+        .contacts{
+
+            margin-right:15px;
+            li{
+                display: inline-block;
+                @include text;
+                margin-left:10px;
+            }
+        }
+    }
+    .main-menu{
+        padding:26px 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        @include tablet-landscape{
+            padding:10px 0;
+        }
+        li{
+            display: inline-block;
+            margin-left:20px;
+            @include tablet-portrait{
+display: block;
+            }
+        }
+        a{
+            @include text;
+            text-transform: uppercase;
+            transition: .2s;
+            &:hover{
+                color: $color-blue;
+            }
+        }
+        .fa-bars {
+            display: none;
+            font-size:30px;
+            margin-right:15px;
+            @include tablet-portrait{
+                display: block;
+            }
+        }
+        @include tablet-landscape{
+            img{
+                height:60px;
+            }
+        }
+        @include tablet-portrait{
+            img{
+                height:40px;
+                margin-left:15px;
+            }
+        }
+        @include mobile{
+            img{
+                height:20px;
+            }
+        }
+        @include tablet-portrait{
+            nav{
+                display: none;
+                position: aboslute;
+                top:60px;
+                right:0;
+                background:#fff;
+                width:100%;
+                text-align: center;
+                z-index: 999;
+            }
+        }
+    }
+}

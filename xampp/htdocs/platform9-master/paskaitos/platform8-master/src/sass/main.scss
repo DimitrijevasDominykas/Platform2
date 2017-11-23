@@ -1,0 +1,15 @@
+// base
+@import "base/reset";
+@import "base/vars";
+@import "base/general";
+@import "base/media";
+@import "base/mixins";
+
+//layouts
+@import "layouts/footer";
+@import "layouts/header";
+
+//pages
+@import "pages/index";
+
+@import "pages/blog";

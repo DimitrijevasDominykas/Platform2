@@ -1,0 +1,19 @@
+{
+  "news":[
+    {"title":"pavadinimas1",
+       "img":"img/blog/Rectangle%2023.png",
+      "content":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam commodi cupiditate, debitis doloremque excepturi fuga, illum incidunt inventore iusto officia officiis quaerat, "
+    },
+    {"title":"pavadinimas2",
+        "img":"img/blog/Rectangle%2023.png",
+      "content":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam commodi cupiditate, debitis doloremque excepturi fuga, illum i"
+    },
+    {"title":"pavadinimas3",
+        "img":"img/blog/Rectangle%2023.png",
+      "content":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam commodi cupiditate, debitis doloremque excepturi fuga, illum incidunt inventore iusto officia officiis quaerat, quam quidem quisquam repellat sunt vel! Adipisci, repellat."
+    },
+       {"title":"pavadinimas4",
+        "img":"img/blog/Rectangle%2023.png",
+      "content":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam commodi cupiditate, debitis doloremque excepturi fuga, illum incidunt inventore iusto officia officiis quaerat, quam quidem quisquam repellat sunt vel! Adipisci, repellat."
+  ]
+    
